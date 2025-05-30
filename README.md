@@ -5,15 +5,15 @@ venience and inefficiency. By fine-tuning the VisionTransformer ViT-B/32 archite
 * EcomClip uses the vision encoder and parameters of the CLIP model, specifically ViT-B/32, and then adds a classification layer for the classification task
 ## Result
 ### Accuracy
-![acc-train-val](visualizer\accuracy_train_val.png)
+![acc-train-val](visualizer/accuracy_train_val.png)
 ### Loss
-![loss-train-val](visualizer\loss_train_val.png)
+![loss-train-val](visualizer/loss_train_val.png)
 ### Precision
-![val-precision](visualizer\val_precision.png)
+![val-precision](visualizer/val_precision.png)
 ### Recall
-![val-recall](visualizer\val-recall.png)
+![val-recall](visualizer/val-recall.png)
 ### F1-SCore
-![val-f1](visualizer\val_f1score.png)
+![val-f1](visualizer/val_f1score.png)
 ## Installing
 ### Training on custom dataset guideline
 First, make sure that the environment has all the libraries listed in our project fully installed.
