@@ -5,9 +5,15 @@ venience and inefficiency. By fine-tuning the VisionTransformer ViT-B/32 archite
 * EcomClip uses the vision encoder and parameters of the CLIP model, specifically ViT-B/32, and then adds a classification layer for the classification task
 ## Result
 ### Accuracy
+![acc-train-val](visualizer\accuracy_train_val.png)
 ### Loss
+![loss-train-val](visualizer\loss_train_val.png)
 ### Precision
+![val-precision](visualizer\val_precision.png)
 ### Recall
+![val-recall](visualizer\val-recall.png)
+### F1-SCore
+![val-f1](visualizer\val_f1score.png)
 ## Installing
 ### Training on custom dataset guideline
 First, make sure that the environment has all the libraries listed in our project fully installed.
@@ -22,4 +28,14 @@ python utils/pull_dataset.py --url https://huggingface.co/datasets/sherlockvn/ME
 After a successful download, the data will be automatically unzipped. The final step is to run the `train.py` file to start the training process
 ```
 python train.py
+```
+The evaluation results will be saved in the `visualizer` folder.
+### Inference
+To evaluate the results on the validation set, please run the following command:
+```
+python infer.py
+```
+The results will also be saved in the `visualizer` folder. To evaluate and visually test the results, please use the demo file.
+```
+python demo.py
 ```
