@@ -3,6 +3,7 @@ EcomCLip (a.k.a E-commerce Clip model) is a project designed for the e-commerce 
 venience and inefficiency. By fine-tuning the VisionTransformer ViT-B/32 architecture of the CLIP model, EcomCLip also paves the way for new approaches in applying image classification tasks in real-world scenarios.
 * EcomCLip will utilize the MEPC-10 image dataset from e-commerce websites. For more details, please refer to the following link: [MEPC-dataset](https://huggingface.co/datasets/sherlockvn/MEPC)
 * EcomClip uses the vision encoder and parameters of the CLIP model, specifically ViT-B/32, and then adds a classification layer for the classification task
+![architecture-overview](architecture-overview/architect-ovw.png)
 ## Result
 ### Accuracy
 ![acc-train-val](visualizer/accuracy_train_val.png)
