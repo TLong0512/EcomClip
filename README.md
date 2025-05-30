@@ -11,7 +11,7 @@ venience and inefficiency. By fine-tuning the VisionTransformer ViT-B/32 archite
 ### Precision
 ![val-precision](visualizer/val_precision.png)
 ### Recall
-![val-recall](visualizer/val-recall.png)
+![val-recall](visualizer/val_recall.png)
 ### F1-SCore
 ![val-f1](visualizer/val_f1score.png)
 ## Installing
